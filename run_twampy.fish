@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 # Check if sufficient arguments are provided
-if test (count $argv) -lt 3
+if test (count $argv) -lt 2
     echo "Usage: sudo ./run_twampy.fish [IP Address] [Remote Port] [Local Port]"
     exit 1
 end
